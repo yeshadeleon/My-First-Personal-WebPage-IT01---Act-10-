@@ -6,7 +6,7 @@ function typeWriter() {
     if (i < text.length) {
         document.getElementById("typing-text").innerHTML += text.charAt(i);
         i++;
-        setTimeout(typeWriter, speed);
+        setTimeout(typeWriter, 80);
     }
 }
 
