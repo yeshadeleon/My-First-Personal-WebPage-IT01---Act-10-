@@ -204,3 +204,18 @@
         #loader.fade {
             opacity: 0;
         }
+        
+        @media (max-width: 768px) {
+            .gallery-item {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 22px;
+            }
+            
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
